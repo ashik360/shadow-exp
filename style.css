@@ -19,7 +19,7 @@ body{
     text-align: center;
     font-weight: 900;
     font-size: 10rem;
-    filter: drop-shadow(0px 0px 80px #000);
+    filter: drop-shadow(5px 0px 10px #000);
     text-shadow: 4px 14px 5px  #192c1763;
 }
 
@@ -31,7 +31,7 @@ body{
     text-align: center;
     font-weight: 900;
     font-size: 10rem;
-    filter: drop-shadow(0px 0px 80px #000);
+    filter: drop-shadow(0px 0px 40px #000);
     text-shadow: 14px 4px 1px  #192c1763;
 }
 
@@ -43,7 +43,7 @@ body{
     text-align: center;
     font-weight: 900;
     font-size: 10rem;
-    filter: drop-shadow(0px 0px 80px #000);
+    filter: drop-shadow(0px 10px 20px #000);
     text-shadow: 4px 14px 2px  #c0c0c063;
 }
 
@@ -52,5 +52,63 @@ body{
     height: 20rem;
     width: 20rem;
     background-color: #758d8c;
-    box-shadow: 5px 2px 10px #5c5c5c;
+    box-shadow: 10px 2px 10px #5c5c5c;
+}
+
+.box-2-shadow{
+    margin: 4rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: #758d8c;
+    box-shadow: 25px 22px 5px #5c5c5c;
+}
+
+.box-3-shadow{
+    margin: 4rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: #758d8c;
+    box-shadow: 1px 25px 22px 10px #5c5c5c;
+}
+
+.box-4-shadow{
+    margin: 4rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: #758d8c;
+    box-shadow: -25px -22px 5px #5c5c5c;
+    filter: drop-shadow(0px 10px 20px rgb(53, 99, 248));
+}
+
+.box-5-shadow{
+    margin: 4rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: #758d8c;
+    box-shadow: -25px -22px 5px #5c5c5c, 25px 22px 5px #5c5c5c ;
+}
+
+.box-6-shadow{
+    margin: 4rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: #758d8c;
+    filter: drop-shadow(0px 5px 20px rgb(255, 42, 42));
+}
+
+.box-7-shadow{
+    margin: 4rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: #758d8c;
+    border-radius: 50%;
+    filter: drop-shadow(0px 5px 20px rgb(255, 42, 42));
+}
+
+.box-8-shadow{
+    margin: 4rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: #758d8c;
+    box-shadow: -0px -15px 5px #5c5c5c, 0px 15px 5px #5c5c5c ;
 }
